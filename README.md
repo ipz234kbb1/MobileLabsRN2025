@@ -27,7 +27,7 @@
 ## Скріншоти
 
 ### Екран гри
-![Екран гри](./images/main_screen.png)
+<img src="./images/main_screen.png" width="300" alt="Екран гри">
 
 ### Екран завдань
-![Екран завдань](./images/tasks_screen.png) 
+<img src="./images/tasks_screen.png" width="300" alt="Екран завдань"> 
