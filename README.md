@@ -1,23 +1,30 @@
-# Mobile App for Order Management
+# Лабораторна робота №8
 
-## Опис проекту
+## Інструкція по запуску
 
-Цей додаток призначений для керування замовленнями. Він дозволяє переглядати каталог товарів, створювати нові замовлення, переглядати історію замовлень та керувати поточними замовленнями.
+1. Клонувати репозиторій:
+   ```bash
+   git clone https://github.com/ipz234kbb1/MobileLabsRN2025.git
+   cd MobileLabsRN2025
+   git checkout Lab8
+   ```
 
-## Встановлення та запуск
-
-1. Переконайтеся, що у вас встановлений Node.js та npm
-2. Встановіть залежності проекту:
+2. Встановити залежності:
    ```bash
    npm install
    ```
-3. Запустіть додаток:
+
+3. Запустити проект:
    ```bash
    npx expo start
    ```
-4. Відскануйте QR-код за допомогою додатку Expo Go на вашому смартфоні або запустіть на емуляторі.
 
-## Скріншоти додатку
+4. Для запуску на емуляторі або фізичному пристрої:
+   - Натисніть `a` для запуску на емуляторі Android
+   - Натисніть `i` для запуску на емуляторі iOS
+   - Відскануйте QR-код в Expo Go на фізичному пристрої
+
+## Скріншоти
 
 ### Каталог товарів
 <img src="./images/catalog.png" width="500" alt="Catalog Screen">
@@ -25,40 +32,17 @@
 ### Створення замовлення
 <img src="./images/order.png" width="500" alt="Create Order Screen">
 
-### Підтвердження замовлення
+### Оформлення замовлення
 <img src="./images/completeorder.png" width="500" alt="Complete Order Screen">
 
-### Виконані замовлення
+### Замовлення створено
 <img src="./images/completed.png" width="500" alt="Completed Orders">
 
 ### Історія замовлень
 <img src="./images/history.png" width="500" alt="Order History">
 
-### Видалення замовлення
+### Видалення товару з кошика
 <img src="./images/deleteorder.png" width="500" alt="Delete Order">
 
-### Порожній стан
+### Порожній кошик
 <img src="./images/empty.png" width="500" alt="Empty State">
-
-## Історія комітів
-
-- `feat: initialize project with basic navigation`
-- `feat: add catalog screen with product list`
-- `feat: implement order creation functionality`
-- `feat: add order history screen`
-- `feat: add order completion flow`
-- `feat: implement order deletion`
-- `style: update UI components and styling`
-- `docs: add README with screenshots and setup instructions`
-
-## Технології
-
-- React Native
-- Expo
-- React Navigation
-- Redux (або Context API, залежно від реалізації)
-- React Native Paper (або інша бібліотека UI компонентів)
-
-## Автор
-
-[Ваше ім'я]
